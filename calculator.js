@@ -26,3 +26,11 @@ let operator = 0;// will be the operator
 function operate(operator=0, num1, num2){
     console.log(add(num1,num2));
 }
+
+
+// Put a event listener on calculator div
+const calculator = document.getElementById("calculator");
+
+calculator.addEventListener('click', (e)=>{
+    display_value = e.target.className;
+});
