@@ -20,7 +20,7 @@ While this calculator project provides basic functionality for performing arithm
 * Press the equals button (=) to calculate the result.
 * The result will be displayed in the input field.
 
-#Development
+# Development
 If you want to contribute or modify this calculator project, follow these steps:
 
 * Clone the repository: git clone https://github.com/Lone2000/calculator.git
