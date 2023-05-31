@@ -1,0 +1,45 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./images/pexels-simon-berger-1323550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#calculator{
+    height: 80vh;
+    width: 80wh;
+}
+
+#calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display{
+    width: 18.2%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 240px;
+    gap: 5px;
+}
+
+.container > button{
+    flex: 1 0 30%;
+    height: 30px;
+    font-size: 18px;
+}
